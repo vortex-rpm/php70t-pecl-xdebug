@@ -7,7 +7,7 @@
 %global php_base php70t
 
 Name:           %{php_base}-pecl-xdebug
-Version:        2.2.4
+Version:        2.4.0RC2
 Release:        1.vortex%{?dist}
 Summary:        PECL package for debugging PHP scripts
 
@@ -129,6 +129,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Dec 12 2015 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 2.4.0RC2-1.vortex
+- Update to 2.4.0RC2.
+
 * Fri Apr  4 2014 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 2.2.4-1.vortex
 - Rebuilt with php55t.
 
